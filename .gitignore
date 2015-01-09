@@ -1,0 +1,5 @@
+node_modules
+*.o
+Makefile
+.qmake.stash
+.DS_Store
