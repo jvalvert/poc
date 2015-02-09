@@ -1,0 +1,9 @@
+# Target labels
+ Drive
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tests/directory_handler_test.cc
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tests/directory_test.cc
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tests/test_main.cc
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tests/test_utils.cc
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tests/utils_test.cc
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tests/test_utils.h

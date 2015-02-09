@@ -1,0 +1,4 @@
+# Target labels
+ VaultManager
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/vault_manager/src/maidsafe/vault_manager/tools/network_test_helper.cc

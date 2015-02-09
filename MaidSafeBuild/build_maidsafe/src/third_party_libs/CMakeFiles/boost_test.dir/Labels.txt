@@ -1,0 +1,13 @@
+# Target labels
+ Boost
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/third_party_libs/CMakeFiles/boost_test
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/third_party_libs/CMakeFiles/boost_test.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/third_party_libs/CMakeFiles/boost_test-complete.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_test-stamp/boost_test-install.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_test-stamp/boost_test-mkdir.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_test-stamp/boost_test-download.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_test-stamp/boost_test-update.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_test-stamp/boost_test-patch.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_test-stamp/boost_test-configure.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_test-stamp/boost_test-build.rule

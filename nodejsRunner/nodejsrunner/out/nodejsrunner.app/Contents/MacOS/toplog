@@ -1,0 +1,29 @@
+
+[32minfo: [39m[90mStarting app...[39m
+
+[33mwarn: [39mCannot read package.json in the current directory (/Users/Rafa/pocs/nodejsRunner/nodejsrunner/out/nodejsrunner.app/Contents/MacOS)
+[33mwarn: [39mAre you sure this is a Sails app?
+[33mwarn: [39m
+[33mwarn: [39mThe package.json in the current directory does not list Sails as a dependency...
+[33mwarn: [39mAre you sure `/Users/Rafa/pocs/nodejsRunner/nodejsrunner/out/nodejsrunner.app/Contents/MacOS` is a Sails app?
+[33mwarn: [39m
+[37m[39m
+[37m[39m
+[37m[39m
+[32minfo: [39m
+[32minfo: [39m
+[32minfo: [39m   Sails              <|
+[32minfo: [39m   v0.10.5             |\
+[32minfo: [39m                      /|.\
+[32minfo: [39m                     / || \
+[32minfo: [39m                   ,'  |'  \
+[32minfo: [39m                .-'.-==|/_--'
+[32minfo: [39m                `--'-------' 
+[32minfo: [39m   __---___--___---___--___---___--___
+[32minfo: [39m ____---___--___---___--___---___--___-__
+[32minfo: [39m
+[32minfo: [39mServer lifted in `/Users/Rafa/pocs/nodejsRunner/nodejsrunner/out/nodejsrunner.app/Contents/MacOS`
+[32minfo: [39mTo see your app, visit [4mhttp://localhost:1337[24m
+[32minfo: [39mTo shut down Sails, press <CTRL> + C at any time.
+[37m[39m
+[37m[39m

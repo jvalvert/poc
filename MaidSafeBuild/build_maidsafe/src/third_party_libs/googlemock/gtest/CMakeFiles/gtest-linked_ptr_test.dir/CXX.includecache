@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/googlemock/gtest/test/gtest-linked_ptr_test.cc
+gtest/internal/gtest-linked_ptr.h
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/googlemock/gtest/test/gtest/internal/gtest-linked_ptr.h
+stdlib.h
+-
+gtest/gtest.h
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/googlemock/gtest/test/gtest/gtest.h
+

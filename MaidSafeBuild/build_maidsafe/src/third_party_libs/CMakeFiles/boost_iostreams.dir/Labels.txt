@@ -1,0 +1,13 @@
+# Target labels
+ Boost
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/third_party_libs/CMakeFiles/boost_iostreams
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/third_party_libs/CMakeFiles/boost_iostreams.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/third_party_libs/CMakeFiles/boost_iostreams-complete.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_iostreams-stamp/boost_iostreams-install.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_iostreams-stamp/boost_iostreams-mkdir.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_iostreams-stamp/boost_iostreams-download.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_iostreams-stamp/boost_iostreams-update.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_iostreams-stamp/boost_iostreams-patch.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_iostreams-stamp/boost_iostreams-configure.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_iostreams-stamp/boost_iostreams-build.rule

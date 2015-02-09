@@ -1,0 +1,5 @@
+# Target labels
+ Common
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tools/network_viewer.cc
+/Users/Rafa/pocs/MaidSafe/src/common/include/maidsafe/common/tools/network_viewer.h

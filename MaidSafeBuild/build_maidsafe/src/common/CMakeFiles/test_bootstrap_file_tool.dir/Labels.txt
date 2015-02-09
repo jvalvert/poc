@@ -1,0 +1,5 @@
+# Target labels
+ Common
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/tests_main.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tools/tests/bootstrap_file_tool_test.cc

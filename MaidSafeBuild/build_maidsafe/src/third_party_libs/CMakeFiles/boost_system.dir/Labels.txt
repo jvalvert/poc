@@ -1,0 +1,13 @@
+# Target labels
+ Boost
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/third_party_libs/CMakeFiles/boost_system
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/third_party_libs/CMakeFiles/boost_system.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/third_party_libs/CMakeFiles/boost_system-complete.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_system-stamp/boost_system-install.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_system-stamp/boost_system-mkdir.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_system-stamp/boost_system-download.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_system-stamp/boost_system-update.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_system-stamp/boost_system-patch.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_system-stamp/boost_system-configure.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_system-stamp/boost_system-build.rule

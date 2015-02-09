@@ -1,0 +1,5 @@
+# Target labels
+ Drive
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/filesystem_weekly.cc
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/tool_main.cc

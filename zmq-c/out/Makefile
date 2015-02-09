@@ -15,7 +15,7 @@ CXX           = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefau
 DEFINES       = 
 CFLAGS        = -pipe -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -mmacosx-version-min=10.7 -Wall -W -fPIE $(DEFINES)
 CXXFLAGS      = -pipe -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -mmacosx-version-min=10.7 -Wall -W -fPIE $(DEFINES)
-INCPATH       = -I../../../Qt/5.4/clang_64/mkspecs/macx-clang -I../zmq -I/usr/local/include -I.
+INCPATH       = -I../../../Qt/5.4/clang_64/mkspecs/macx-clang -I../zmq -I../zmq/include -I.
 QMAKE         = /Users/Rafa/Qt/5.4/clang_64/bin/qmake
 DEL_FILE      = rm -f
 CHK_DIR_EXISTS= test -d
@@ -33,7 +33,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = zmq1.0.0
-DISTDIR = /Users/Rafa/poc/zmq-c/zmq/.tmp/zmq1.0.0
+DISTDIR = /Users/Rafa/pocs/zmq-c/zmq/.tmp/zmq1.0.0
 LINK          = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
 LFLAGS        = -headerpad_max_install_names -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -mmacosx-version-min=10.7
 LIBS          = $(SUBLIBS) -L/usr/local/lib -lzmq 
@@ -157,6 +157,7 @@ DIST          = ../../../Qt/5.4/clang_64/mkspecs/features/spec_pre.prf \
 		../../../Qt/5.4/clang_64/mkspecs/features/qt_config.prf \
 		../../../Qt/5.4/clang_64/mkspecs/macx-clang/qmake.conf \
 		../../../Qt/5.4/clang_64/mkspecs/features/spec_post.prf \
+		../zmq/.qmake.stash \
 		../../../Qt/5.4/clang_64/mkspecs/features/exclusive_builds.prf \
 		../../../Qt/5.4/clang_64/mkspecs/features/default_pre.prf \
 		../../../Qt/5.4/clang_64/mkspecs/features/mac/default_pre.prf \
@@ -320,6 +321,7 @@ Makefile: ../zmq/zmq.pro ../../../Qt/5.4/clang_64/mkspecs/macx-clang/qmake.conf 
 		../../../Qt/5.4/clang_64/mkspecs/features/qt_config.prf \
 		../../../Qt/5.4/clang_64/mkspecs/macx-clang/qmake.conf \
 		../../../Qt/5.4/clang_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../Qt/5.4/clang_64/mkspecs/features/exclusive_builds.prf \
 		../../../Qt/5.4/clang_64/mkspecs/features/default_pre.prf \
 		../../../Qt/5.4/clang_64/mkspecs/features/mac/default_pre.prf \
@@ -444,6 +446,7 @@ Makefile: ../zmq/zmq.pro ../../../Qt/5.4/clang_64/mkspecs/macx-clang/qmake.conf 
 ../../../Qt/5.4/clang_64/mkspecs/features/qt_config.prf:
 ../../../Qt/5.4/clang_64/mkspecs/macx-clang/qmake.conf:
 ../../../Qt/5.4/clang_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../Qt/5.4/clang_64/mkspecs/features/exclusive_builds.prf:
 ../../../Qt/5.4/clang_64/mkspecs/features/default_pre.prf:
 ../../../Qt/5.4/clang_64/mkspecs/features/mac/default_pre.prf:
@@ -504,83 +507,83 @@ compiler_clean:
 
 ####### Compile
 
-main.o: ../zmq/main.cpp /usr/local/Cellar/zeromq/4.0.5_1/include/zmq.h \
-		../zmq/zmq.hpp \
-		/usr/local/include/msgpack.hpp \
-		/usr/local/include/msgpack/object.hpp \
-		/usr/local/include/msgpack/versioning.hpp \
-		/usr/local/include/msgpack/object_fwd.hpp \
-		/usr/local/include/msgpack/zone.hpp \
-		/usr/local/include/msgpack/cpp_config.hpp \
-		/usr/local/include/msgpack/detail/cpp03_zone.hpp \
-		/usr/local/include/msgpack/detail/cpp11_zone.hpp \
-		/usr/local/include/msgpack/object.h \
-		/usr/local/include/msgpack/zone.h \
-		/usr/local/include/msgpack/sysdep.h \
-		/usr/local/include/msgpack/pack.hpp \
-		/usr/local/include/msgpack/adaptor/int_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/bool_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/char_ptr_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/deque_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/fixint_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/float_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/list_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/map_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/msgpack_tuple_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/detail/cpp03_msgpack_tuple_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/detail/cpp11_msgpack_tuple_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/nil_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/pair_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/raw_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/set_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/string_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/vector_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/vector_char_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/tr1/unordered_map_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/tr1/unordered_set_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/cpp11/array_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/cpp11/array_char_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/cpp11/forward_list_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/cpp11/tuple_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/cpp11/unordered_map_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/cpp11/unordered_set_fwd.hpp \
-		/usr/local/include/msgpack/type.hpp \
-		/usr/local/include/msgpack/adaptor/bool.hpp \
-		/usr/local/include/msgpack/adaptor/char_ptr.hpp \
-		/usr/local/include/msgpack/adaptor/deque.hpp \
-		/usr/local/include/msgpack/adaptor/fixint.hpp \
-		/usr/local/include/msgpack/adaptor/int.hpp \
-		/usr/local/include/msgpack_fwd.hpp \
-		/usr/local/include/msgpack/adaptor/define.hpp \
-		/usr/local/include/msgpack/adaptor/detail/cpp03_define.hpp \
-		/usr/local/include/msgpack/adaptor/detail/cpp11_define.hpp \
-		/usr/local/include/msgpack/adaptor/float.hpp \
-		/usr/local/include/msgpack/adaptor/list.hpp \
-		/usr/local/include/msgpack/adaptor/map.hpp \
-		/usr/local/include/msgpack/adaptor/nil.hpp \
-		/usr/local/include/msgpack/adaptor/pair.hpp \
-		/usr/local/include/msgpack/adaptor/raw.hpp \
-		/usr/local/include/msgpack/adaptor/set.hpp \
-		/usr/local/include/msgpack/adaptor/string.hpp \
-		/usr/local/include/msgpack/adaptor/vector.hpp \
-		/usr/local/include/msgpack/adaptor/vector_char.hpp \
-		/usr/local/include/msgpack/adaptor/msgpack_tuple.hpp \
-		/usr/local/include/msgpack/adaptor/detail/cpp03_msgpack_tuple.hpp \
-		/usr/local/include/msgpack/adaptor/detail/cpp11_msgpack_tuple.hpp \
-		/usr/local/include/msgpack/adaptor/tr1/unordered_map.hpp \
-		/usr/local/include/msgpack/adaptor/tr1/unordered_set.hpp \
-		/usr/local/include/msgpack/adaptor/cpp11/array.hpp \
-		/usr/local/include/msgpack/adaptor/cpp11/array_char.hpp \
-		/usr/local/include/msgpack/adaptor/cpp11/forward_list.hpp \
-		/usr/local/include/msgpack/adaptor/cpp11/tuple.hpp \
-		/usr/local/include/msgpack/adaptor/cpp11/unordered_map.hpp \
-		/usr/local/include/msgpack/adaptor/cpp11/unordered_set.hpp \
-		/usr/local/include/msgpack/unpack.hpp \
-		/usr/local/include/msgpack/unpack_define.h \
-		/usr/local/include/msgpack/sbuffer.hpp \
-		/usr/local/include/msgpack/vrefbuffer.hpp \
-		/usr/local/include/msgpack/version.hpp \
-		/usr/local/include/msgpack/version_master.h
+main.o: ../zmq/main.cpp ../zmq/include/zmq/zmq.h \
+		../zmq/include/zmq/zmq.hpp \
+		../zmq/include/msgpack/msgpack.hpp \
+		../zmq/include/msgpack/object.hpp \
+		../zmq/include/msgpack/versioning.hpp \
+		../zmq/include/msgpack/object_fwd.hpp \
+		../zmq/include/msgpack/zone.hpp \
+		../zmq/include/msgpack/cpp_config.hpp \
+		../zmq/include/msgpack/detail/cpp03_zone.hpp \
+		../zmq/include/msgpack/detail/cpp11_zone.hpp \
+		../zmq/include/msgpack/object.h \
+		../zmq/include/msgpack/zone.h \
+		../zmq/include/msgpack/sysdep.h \
+		../zmq/include/msgpack/pack.hpp \
+		../zmq/include/msgpack/adaptor/int_fwd.hpp \
+		../zmq/include/msgpack/adaptor/bool_fwd.hpp \
+		../zmq/include/msgpack/adaptor/char_ptr_fwd.hpp \
+		../zmq/include/msgpack/adaptor/deque_fwd.hpp \
+		../zmq/include/msgpack/adaptor/fixint_fwd.hpp \
+		../zmq/include/msgpack/adaptor/float_fwd.hpp \
+		../zmq/include/msgpack/adaptor/list_fwd.hpp \
+		../zmq/include/msgpack/adaptor/map_fwd.hpp \
+		../zmq/include/msgpack/adaptor/msgpack_tuple_fwd.hpp \
+		../zmq/include/msgpack/adaptor/detail/cpp03_msgpack_tuple_fwd.hpp \
+		../zmq/include/msgpack/adaptor/detail/cpp11_msgpack_tuple_fwd.hpp \
+		../zmq/include/msgpack/adaptor/nil_fwd.hpp \
+		../zmq/include/msgpack/adaptor/pair_fwd.hpp \
+		../zmq/include/msgpack/adaptor/raw_fwd.hpp \
+		../zmq/include/msgpack/adaptor/set_fwd.hpp \
+		../zmq/include/msgpack/adaptor/string_fwd.hpp \
+		../zmq/include/msgpack/adaptor/vector_fwd.hpp \
+		../zmq/include/msgpack/adaptor/vector_char_fwd.hpp \
+		../zmq/include/msgpack/adaptor/tr1/unordered_map_fwd.hpp \
+		../zmq/include/msgpack/adaptor/tr1/unordered_set_fwd.hpp \
+		../zmq/include/msgpack/adaptor/cpp11/array_fwd.hpp \
+		../zmq/include/msgpack/adaptor/cpp11/array_char_fwd.hpp \
+		../zmq/include/msgpack/adaptor/cpp11/forward_list_fwd.hpp \
+		../zmq/include/msgpack/adaptor/cpp11/tuple_fwd.hpp \
+		../zmq/include/msgpack/adaptor/cpp11/unordered_map_fwd.hpp \
+		../zmq/include/msgpack/adaptor/cpp11/unordered_set_fwd.hpp \
+		../zmq/include/msgpack/type.hpp \
+		../zmq/include/msgpack/adaptor/bool.hpp \
+		../zmq/include/msgpack/adaptor/char_ptr.hpp \
+		../zmq/include/msgpack/adaptor/deque.hpp \
+		../zmq/include/msgpack/adaptor/fixint.hpp \
+		../zmq/include/msgpack/adaptor/int.hpp \
+		../zmq/include/msgpack/msgpack_fwd.hpp \
+		../zmq/include/msgpack/adaptor/define.hpp \
+		../zmq/include/msgpack/adaptor/detail/cpp03_define.hpp \
+		../zmq/include/msgpack/adaptor/detail/cpp11_define.hpp \
+		../zmq/include/msgpack/adaptor/float.hpp \
+		../zmq/include/msgpack/adaptor/list.hpp \
+		../zmq/include/msgpack/adaptor/map.hpp \
+		../zmq/include/msgpack/adaptor/nil.hpp \
+		../zmq/include/msgpack/adaptor/pair.hpp \
+		../zmq/include/msgpack/adaptor/raw.hpp \
+		../zmq/include/msgpack/adaptor/set.hpp \
+		../zmq/include/msgpack/adaptor/string.hpp \
+		../zmq/include/msgpack/adaptor/vector.hpp \
+		../zmq/include/msgpack/adaptor/vector_char.hpp \
+		../zmq/include/msgpack/adaptor/msgpack_tuple.hpp \
+		../zmq/include/msgpack/adaptor/detail/cpp03_msgpack_tuple.hpp \
+		../zmq/include/msgpack/adaptor/detail/cpp11_msgpack_tuple.hpp \
+		../zmq/include/msgpack/adaptor/tr1/unordered_map.hpp \
+		../zmq/include/msgpack/adaptor/tr1/unordered_set.hpp \
+		../zmq/include/msgpack/adaptor/cpp11/array.hpp \
+		../zmq/include/msgpack/adaptor/cpp11/array_char.hpp \
+		../zmq/include/msgpack/adaptor/cpp11/forward_list.hpp \
+		../zmq/include/msgpack/adaptor/cpp11/tuple.hpp \
+		../zmq/include/msgpack/adaptor/cpp11/unordered_map.hpp \
+		../zmq/include/msgpack/adaptor/cpp11/unordered_set.hpp \
+		../zmq/include/msgpack/unpack.hpp \
+		../zmq/include/msgpack/unpack_define.h \
+		../zmq/include/msgpack/sbuffer.hpp \
+		../zmq/include/msgpack/vrefbuffer.hpp \
+		../zmq/include/msgpack/version.hpp \
+		../zmq/include/msgpack/version_master.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../zmq/main.cpp
 
 ####### Install

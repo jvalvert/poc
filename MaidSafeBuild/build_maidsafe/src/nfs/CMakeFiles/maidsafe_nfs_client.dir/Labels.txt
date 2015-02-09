@@ -1,0 +1,32 @@
+# Target labels
+ Nfs
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/client/client_utils.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/client/data_getter.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/client/data_getter_dispatcher.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/client/data_getter_service.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/client/fake_store.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/client/get_handler.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/client/maid_node_dispatcher.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/client/maid_node_nfs.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/client/maid_node_service.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/client/messages.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/client/structured_data.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/client/client_utils.cc
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/client/data_getter.cc
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/client/data_getter_dispatcher.cc
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/client/data_getter_service.cc
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/client/fake_store.cc
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/client/maid_node_dispatcher.cc
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/client/maid_node_nfs.cc
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/client/maid_node_service.cc
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/client/messages.cc
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/client/structured_data.cc
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/client/messages.proto
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/client/structured_data.proto
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/client/messages.pb.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/client/structured_data.pb.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/client/messages.pb.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/client/structured_data.pb.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/client/messages.pb.cc.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/client/structured_data.pb.cc.rule

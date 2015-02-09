@@ -1,0 +1,11 @@
+# Target labels
+ VaultManager
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/vault_manager/src/maidsafe/vault_manager/tests/client_interface_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault_manager/src/maidsafe/vault_manager/tests/process_manager_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault_manager/src/maidsafe/vault_manager/tests/rpc_helper_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault_manager/src/maidsafe/vault_manager/tests/test_main.cc
+/Users/Rafa/pocs/MaidSafe/src/vault_manager/src/maidsafe/vault_manager/tests/test_utils.cc
+/Users/Rafa/pocs/MaidSafe/src/vault_manager/src/maidsafe/vault_manager/tests/utils_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault_manager/src/maidsafe/vault_manager/tests/vault_manager_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault_manager/src/maidsafe/vault_manager/tests/test_utils.h

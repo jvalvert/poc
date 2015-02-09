@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gloox
+Description: A high-level XMPP/Jabber library for C++
+Version: 1.0.12
+Libs: -L${libdir} -lgloox -lresolv -lresolv   -lidn -L/usr/local/Cellar/gnutls/3.3.9/lib -lgnutls  -lz
+Cflags: -I${includedir}  -I/usr/local/Cellar/gnutls/3.3.9/include -I/usr/local/Cellar/nettle/2.7.1/include -I/usr/local/Cellar/libtasn1/4.2/include  -D_THREAD_SAFE 

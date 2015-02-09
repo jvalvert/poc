@@ -1,0 +1,13 @@
+# Target labels
+ Boost
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/third_party_libs/CMakeFiles/boost_python
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/third_party_libs/CMakeFiles/boost_python.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/third_party_libs/CMakeFiles/boost_python-complete.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_python-stamp/boost_python-install.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_python-stamp/boost_python-mkdir.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_python-stamp/boost_python-download.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_python-stamp/boost_python-update.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_python-stamp/boost_python-patch.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_python-stamp/boost_python-configure.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/boost_1_57_0/src/boost_python-stamp/boost_python-build.rule

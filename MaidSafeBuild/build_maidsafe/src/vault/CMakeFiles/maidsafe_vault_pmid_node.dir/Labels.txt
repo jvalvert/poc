@@ -1,0 +1,22 @@
+# Target labels
+ Vault
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/pmid_node/dispatcher.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/pmid_node/handler.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/pmid_node/service.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/pmid_node/dispatcher.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/pmid_node/handler.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/pmid_node/service.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/pmid_node/pmid_node.proto
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/pmid_node/pmid_node.pb.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/pmid_node/pmid_node.pb.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/generated_message_types/maidsafe/vault/message_types.h
+/Users/Rafa/pocs/MaidSafe/src/vault/cmake/message_types.h.in
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/pmid_node/pmid_node.pb.cc.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/generated_message_types/maidsafe/vault/message_types.h.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/copied_message_types/cache_handler.message_types.meta.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/copied_message_types/data_manager.message_types.meta.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/copied_message_types/maid_manager.message_types.meta.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/copied_message_types/pmid_manager.message_types.meta.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/copied_message_types/pmid_node.message_types.meta.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/copied_message_types/version_handler.message_types.meta.rule

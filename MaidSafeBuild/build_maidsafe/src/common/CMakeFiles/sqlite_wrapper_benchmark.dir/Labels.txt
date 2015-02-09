@@ -1,0 +1,5 @@
+# Target labels
+ Common
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tools/sqlite_wrapper_benchmark.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tools/tests/benchmark/sqlite3_wrapper_benchmark.cc

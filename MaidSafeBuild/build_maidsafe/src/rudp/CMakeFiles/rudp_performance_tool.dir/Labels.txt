@@ -1,0 +1,6 @@
+# Target labels
+ Rudp
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/rudp/src/maidsafe/rudp/tests/performance_tool.cc
+/Users/Rafa/pocs/MaidSafe/src/rudp/src/maidsafe/rudp/tests/test_utils.cc
+/Users/Rafa/pocs/MaidSafe/src/rudp/src/maidsafe/rudp/tests/test_utils.h

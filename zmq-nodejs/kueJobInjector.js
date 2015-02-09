@@ -8,7 +8,7 @@ var zmq = require('zmq')
 // Create the queue 
 var kue = require('kue')
   , jobs = kue.createQueue();
-
+kue.app.listen(3000);
 
 responder.connect('tcp://localhost:38001'); // connect to the dealer
 responder.on('message', function(msg) {

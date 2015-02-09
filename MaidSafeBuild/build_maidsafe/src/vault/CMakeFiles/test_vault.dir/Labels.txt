@@ -1,0 +1,32 @@
+# Target labels
+ Vault
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/account_transfer_handler_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/accumulator_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/chunk_store_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/chunk_store_test_utils.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/data_holder_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/db_key_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/db_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/demultiplexer_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/group_db_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/maid_account_handler_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/memory_fifo_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/sync_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/tests_main.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/tests_utils.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/utils_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/vault_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/account_transfer_analyser.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/account_transfer_info_handler.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/chunk_store_test_utils.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/tests/tests_utils.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/pmid_node/tests/service_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/pmid_manager/tests/service_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/data_manager/tests/database_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/data_manager/tests/service_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/data_manager/tests/value_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/data_manager/tests/account_transfer_info_handler.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/version_handler/tests/service_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/cache_handler/tests/service_test.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/tests/service_test.cc

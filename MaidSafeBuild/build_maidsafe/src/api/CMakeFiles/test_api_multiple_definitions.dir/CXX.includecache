@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/api/all_apis.h
+
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/api/translation_unit_one.cc
+all_apis.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/api/all_apis.h
+
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/api/translation_unit_two.cc
+all_apis.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/api/all_apis.h
+

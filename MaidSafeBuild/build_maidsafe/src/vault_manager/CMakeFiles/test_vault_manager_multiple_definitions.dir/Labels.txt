@@ -1,0 +1,6 @@
+# Target labels
+ VaultManager
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault_manager/all_apis.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault_manager/translation_unit_one.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault_manager/translation_unit_two.cc

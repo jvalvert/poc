@@ -2,7 +2,7 @@ TEMPLATE = app
 CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
-INCLUDEPATH += /usr/local/include
+INCLUDEPATH += include
 LIBS += -L"/usr/local/lib"  -lzmq
 SOURCES += main.cpp
 

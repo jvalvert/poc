@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../libmaidsafe_nfs_core-d.a  CMakeFiles/maidsafe_nfs_core.dir/src/maidsafe/nfs/message_wrapper.cc.o CMakeFiles/maidsafe_nfs_core.dir/src/maidsafe/nfs/public_pmid_helper.cc.o CMakeFiles/maidsafe_nfs_core.dir/__/__/GeneratedProtoFiles/maidsafe/nfs/message_wrapper.pb.cc.o
+/usr/bin/ranlib ../../libmaidsafe_nfs_core-d.a

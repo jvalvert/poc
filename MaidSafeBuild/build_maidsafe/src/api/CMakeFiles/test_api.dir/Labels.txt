@@ -1,0 +1,7 @@
+# Target labels
+ Api
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/api/src/maidsafe/tests/account_test.cc
+/Users/Rafa/pocs/MaidSafe/src/api/src/maidsafe/tests/test_utils.cc
+/Users/Rafa/pocs/MaidSafe/src/api/src/maidsafe/tests/test_utils.h
+/Users/Rafa/pocs/MaidSafe/src/api/src/maidsafe/tests/tests_main.cc

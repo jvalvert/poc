@@ -1,0 +1,119 @@
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - signals                  : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - wave                     : not building
+
+common.mkdir Build/boost/bin.v2/libs/program_options
+
+        mkdir -p "Build/boost/bin.v2/libs/program_options"
+    
+common.mkdir Build/boost/bin.v2/libs/program_options/build
+
+        mkdir -p "Build/boost/bin.v2/libs/program_options/build"
+    
+common.mkdir Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448
+
+        mkdir -p "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448"
+    
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/cmdline.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/cmdline.o" "libs/program_options/src/cmdline.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/config_file.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/config_file.o" "libs/program_options/src/config_file.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/options_description.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/options_description.o" "libs/program_options/src/options_description.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/parsers.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/parsers.o" "libs/program_options/src/parsers.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/variables_map.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/variables_map.o" "libs/program_options/src/variables_map.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/value_semantic.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/value_semantic.o" "libs/program_options/src/value_semantic.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/positional_options.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/positional_options.o" "libs/program_options/src/positional_options.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/utf8_codecvt_facet.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/utf8_codecvt_facet.o" "libs/program_options/src/utf8_codecvt_facet.cpp"
+
+In file included from libs/program_options/src/utf8_codecvt_facet.cpp:15:
+In file included from ./boost/detail/utf8_codecvt_facet.ipp:13:
+./boost/detail/utf8_codecvt_facet.hpp:176:17: warning: 'boost::program_options::detail::utf8_codecvt_facet::do_length' hides overloaded virtual function [-Woverloaded-virtual]
+    virtual int do_length(
+                ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__locale:952:17: note: hidden overloaded virtual function 'std::__1::codecvt<wchar_t, char, __mbstate_t>::do_length' declared here: type mismatch at 1st parameter ('state_type &' (aka '__mbstate_t &') vs 'const std::mbstate_t &' (aka 'const __mbstate_t &'))
+    virtual int do_length(state_type&, const extern_type* __frm, const extern_type* __end, size_t __mx) const;
+                ^
+1 warning generated.
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/convert.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/convert.o" "libs/program_options/src/convert.cpp"
+
+In file included from libs/program_options/src/convert.cpp:19:
+In file included from ./boost/program_options/detail/utf8_codecvt_facet.hpp:19:
+./boost/detail/utf8_codecvt_facet.hpp:176:17: warning: 'boost::program_options::detail::utf8_codecvt_facet::do_length' hides overloaded virtual function [-Woverloaded-virtual]
+    virtual int do_length(
+                ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__locale:952:17: note: hidden overloaded virtual function 'std::__1::codecvt<wchar_t, char, __mbstate_t>::do_length' declared here: type mismatch at 1st parameter ('state_type &' (aka '__mbstate_t &') vs 'const std::mbstate_t &' (aka 'const __mbstate_t &'))
+    virtual int do_length(state_type&, const extern_type* __frm, const extern_type* __end, size_t __mx) const;
+                ^
+1 warning generated.
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/winmain.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/winmain.o" "libs/program_options/src/winmain.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/split.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/split.o" "libs/program_options/src/split.cpp"
+
+RmTemps Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/libboost_program_options-mt.a(clean)
+
+    rm -f "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/libboost_program_options-mt.a" 
+
+clang-darwin.archive Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/libboost_program_options-mt.a
+
+  "ar"  rc "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/libboost_program_options-mt.a" "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/cmdline.o" "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/config_file.o" "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/options_description.o" "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/parsers.o" "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/variables_map.o" "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/value_semantic.o" "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/positional_options.o" "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/utf8_codecvt_facet.o" "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/convert.o" "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/winmain.o" "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/split.o"
+  "ranlib" -cs "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/libboost_program_options-mt.a"
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/libboost_program_options-mt.a(winmain.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/libboost_program_options-mt.a(winmain.o) has no symbols
+common.copy stage/lib/libboost_program_options-mt.a
+
+    cp "Build/boost/bin.v2/libs/program_options/build/7f927638a298a02d90a6384ba4ab2448/libboost_program_options-mt.a"  "stage/lib/libboost_program_options-mt.a"
+

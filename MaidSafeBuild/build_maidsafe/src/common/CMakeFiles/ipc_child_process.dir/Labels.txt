@@ -1,0 +1,4 @@
+# Target labels
+ Common
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/ipc_child_process.cc

@@ -1,0 +1,27 @@
+# Target labels
+ Nfs
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/vault/account_creation.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/vault/account_removal.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/vault/messages.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/include/maidsafe/nfs/vault/pmid_registration.h
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/vault/account_creation.cc
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/vault/account_removal.cc
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/vault/messages.cc
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/vault/pmid_registration.cc
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/vault/account_creation.proto
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/vault/account_removal.proto
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/vault/messages.proto
+/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/vault/pmid_registration.proto
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/vault/account_creation.pb.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/vault/account_removal.pb.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/vault/messages.pb.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/vault/pmid_registration.pb.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/vault/account_creation.pb.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/vault/account_removal.pb.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/vault/messages.pb.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/vault/pmid_registration.pb.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/vault/account_creation.pb.cc.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/vault/account_removal.pb.cc.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/vault/messages.pb.cc.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/nfs/vault/pmid_registration.pb.cc.rule

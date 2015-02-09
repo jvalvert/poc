@@ -1,0 +1,92 @@
+Performing C SOURCE FILE Test HAVE_FLAG_SANITIZE_ADDRESS failed with the following output:
+Change Dir: /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2479181719/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2479181719.dir/build.make CMakeFiles/cmTryCompileExec2479181719.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2479181719.dir/src.c.o
+/usr/bin/cc   -DHAVE_FLAG_SANITIZE_ADDRESS -Werror -fsanitize=address   -fsanitize=address -o CMakeFiles/cmTryCompileExec2479181719.dir/src.c.o   -c /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'address' to option 'fsanitize='
+clang: error: unsupported argument 'address' to option 'fsanitize='
+make[1]: *** [CMakeFiles/cmTryCompileExec2479181719.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec2479181719/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_FLAG_SANITIZE_MEMORY failed with the following output:
+Change Dir: /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec832946364/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec832946364.dir/build.make CMakeFiles/cmTryCompileExec832946364.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec832946364.dir/src.c.o
+/usr/bin/cc   -DHAVE_FLAG_SANITIZE_MEMORY -Werror -fsanitize=memory   -fsanitize=memory -o CMakeFiles/cmTryCompileExec832946364.dir/src.c.o   -c /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'memory' to option 'fsanitize='
+clang: error: unsupported option '-fsanitize=memory' for target 'x86_64-apple-darwin14.0.0'
+clang: error: unsupported argument 'memory' to option 'fsanitize='
+make[1]: *** [CMakeFiles/cmTryCompileExec832946364.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec832946364/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_FLAG_SANITIZE_THREAD failed with the following output:
+Change Dir: /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2661709270/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2661709270.dir/build.make CMakeFiles/cmTryCompileExec2661709270.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2661709270.dir/src.c.o
+/usr/bin/cc   -DHAVE_FLAG_SANITIZE_THREAD -Werror -fsanitize=thread   -fsanitize=thread -o CMakeFiles/cmTryCompileExec2661709270.dir/src.c.o   -c /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'thread' to option 'fsanitize='
+clang: error: unsupported option '-fsanitize=thread' for target 'x86_64-apple-darwin14.0.0'
+clang: error: unsupported argument 'thread' to option 'fsanitize='
+make[1]: *** [CMakeFiles/cmTryCompileExec2661709270.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec2661709270/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_FLAG_SANITIZE_THREAD_NEEDS_PIC_PIE failed with the following output:
+Change Dir: /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3245915177/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3245915177.dir/build.make CMakeFiles/cmTryCompileExec3245915177.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3245915177.dir/src.c.o
+/usr/bin/cc   -DHAVE_FLAG_SANITIZE_THREAD_NEEDS_PIC_PIE -Werror -fsanitize=thread -fPIC -pie   -fsanitize=thread -o CMakeFiles/cmTryCompileExec3245915177.dir/src.c.o   -c /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'thread' to option 'fsanitize='
+clang: error: unsupported option '-fsanitize=thread' for target 'x86_64-apple-darwin14.0.0'
+clang: error: unsupported argument 'thread' to option 'fsanitize='
+make[1]: *** [CMakeFiles/cmTryCompileExec3245915177.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec3245915177/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_SANITIZE_UNDEFINED failed with the following output:
+Change Dir: /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec255615416/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec255615416.dir/build.make CMakeFiles/cmTryCompileExec255615416.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec255615416.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_FLAG_SANITIZE_UNDEFINED -Werror   -fsanitize=undefined -o CMakeFiles/cmTryCompileExec255615416.dir/src.cxx.o -c /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported argument 'undefined' to option 'fsanitize='
+make[1]: *** [CMakeFiles/cmTryCompileExec255615416.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec255615416/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test HAVE_FLAG_STACK_PROTECTOR_STRONG failed with the following output:
+Change Dir: /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3453581300/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3453581300.dir/build.make CMakeFiles/cmTryCompileExec3453581300.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3453581300.dir/src.c.o
+/usr/bin/cc   -DHAVE_FLAG_STACK_PROTECTOR_STRONG -Werror -fstack-protector-strong   -fstack-protector-strong -o CMakeFiles/cmTryCompileExec3453581300.dir/src.c.o   -c /Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-fstack-protector-strong'
+clang: error: unknown argument: '-fstack-protector-strong'
+make[1]: *** [CMakeFiles/cmTryCompileExec3453581300.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec3453581300/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }

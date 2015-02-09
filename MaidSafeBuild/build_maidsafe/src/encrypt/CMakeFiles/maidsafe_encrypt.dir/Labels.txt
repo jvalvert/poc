@@ -1,0 +1,17 @@
+# Target labels
+ Encrypt
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/encrypt/include/maidsafe/encrypt/data_map.h
+/Users/Rafa/pocs/MaidSafe/src/encrypt/include/maidsafe/encrypt/data_map_encryptor.h
+/Users/Rafa/pocs/MaidSafe/src/encrypt/include/maidsafe/encrypt/self_encryptor.h
+/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/byte_array.cc
+/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/data_map.cc
+/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/data_map_encryptor.cc
+/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/self_encryptor.cc
+/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/byte_array.h
+/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/config.h
+/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/xor.h
+/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/data_map.proto
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/encrypt/data_map.pb.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/encrypt/data_map.pb.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/encrypt/data_map.pb.cc.rule

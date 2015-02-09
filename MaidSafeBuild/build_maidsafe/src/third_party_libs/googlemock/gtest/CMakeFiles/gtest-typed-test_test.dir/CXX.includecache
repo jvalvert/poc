@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/googlemock/gtest/test/gtest-typed-test2_test.cc
+vector
+-
+test/gtest-typed-test_test.h
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/googlemock/gtest/test/test/gtest-typed-test_test.h
+gtest/gtest.h
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/googlemock/gtest/test/gtest/gtest.h
+
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/googlemock/gtest/test/gtest-typed-test_test.cc
+set
+-
+vector
+-
+test/gtest-typed-test_test.h
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/googlemock/gtest/test/test/gtest-typed-test_test.h
+gtest/gtest.h
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/googlemock/gtest/test/gtest/gtest.h
+
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/googlemock/gtest/test/gtest-typed-test_test.h
+gtest/gtest.h
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/googlemock/gtest/test/gtest/gtest.h
+

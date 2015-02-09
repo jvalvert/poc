@@ -1,0 +1,40 @@
+# Target labels
+ Vault
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/action_delete.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/action_put.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/dispatcher.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/service.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/value.cc
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/action_create_remove_account.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/action_delete.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/action_put.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/dispatcher.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/maid_manager.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/service.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/value.h
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/action_create_remove_account.proto
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/action_delete.proto
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/action_put.proto
+/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/maid_manager/maid_manager.proto
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/maid_manager/action_create_remove_account.pb.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/maid_manager/action_delete.pb.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/maid_manager/action_put.pb.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/maid_manager/maid_manager.pb.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/maid_manager/action_create_remove_account.pb.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/maid_manager/action_delete.pb.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/maid_manager/action_put.pb.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/maid_manager/maid_manager.pb.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/generated_message_types/maidsafe/vault/message_types.h
+/Users/Rafa/pocs/MaidSafe/src/vault/cmake/message_types.h.in
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/maid_manager/action_create_remove_account.pb.cc.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/maid_manager/action_delete.pb.cc.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/maid_manager/action_put.pb.cc.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/GeneratedProtoFiles/maidsafe/vault/maid_manager/maid_manager.pb.cc.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/generated_message_types/maidsafe/vault/message_types.h.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/copied_message_types/cache_handler.message_types.meta.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/copied_message_types/data_manager.message_types.meta.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/copied_message_types/maid_manager.message_types.meta.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/copied_message_types/pmid_manager.message_types.meta.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/copied_message_types/pmid_node.message_types.meta.rule
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/vault/copied_message_types/version_handler.message_types.meta.rule

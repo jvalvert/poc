@@ -1,0 +1,27 @@
+# Target labels
+ Common
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/asio_service_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/bounded_string_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/cli_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/clock_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/crypto_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/data_buffer_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/data_buffer_unit_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/errors_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/ipc_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/make_unique_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/node_id_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/on_scope_exit_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/rsa_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/sqlite3_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/tests_main.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/utils_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/authentication/tests/secure_string_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/authentication/tests/user_credential_utils_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tcp/tests/tcp_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/containers/tests/lru_cache_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/data_types/tests/data_types_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/data_types/tests/mutable_data_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/data_types/tests/structured_data_versions_test.cc
+/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/serialisation/tests/binary_archive_test.cc

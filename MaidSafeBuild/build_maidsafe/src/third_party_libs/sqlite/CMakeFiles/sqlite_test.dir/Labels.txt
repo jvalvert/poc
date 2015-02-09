@@ -1,0 +1,4 @@
+# Target labels
+ Sqlite
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/sqlite/src/sqlite_test.cc

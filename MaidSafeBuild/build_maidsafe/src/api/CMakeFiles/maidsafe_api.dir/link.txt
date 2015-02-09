@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../libmaidsafe_api-d.a  CMakeFiles/maidsafe_api.dir/src/maidsafe/private_client.cc.o CMakeFiles/maidsafe_api.dir/src/maidsafe/detail/account.cc.o CMakeFiles/maidsafe_api.dir/src/maidsafe/detail/account_getter.cc.o CMakeFiles/maidsafe_api.dir/src/maidsafe/detail/account_handler.cc.o CMakeFiles/maidsafe_api.dir/__/__/GeneratedProtoFiles/maidsafe/detail/account.pb.cc.o
+/usr/bin/ranlib ../../libmaidsafe_api-d.a

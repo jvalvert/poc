@@ -1,0 +1,14 @@
+# Target labels
+ Drive
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/filesystem_commands.h
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/filesystem_commands.cc
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/tool_main.cc
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/commands/close_file_command.cc
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/commands/command_utils.cc
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/commands/create_file_command.cc
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/commands/exit_tool_command.cc
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/commands/close_file_command.h
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/commands/command_utils.h
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/commands/create_file_command.h
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/commands/exit_tool_command.h

@@ -1,0 +1,5 @@
+# Target labels
+ Encrypt
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/tests/benchmark.cc
+/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/tests/test_main.cc

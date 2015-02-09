@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/googlemock/test/gmock-port_test.cc
+gmock/internal/gmock-port.h
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/googlemock/test/gmock/internal/gmock-port.h
+gtest/gtest.h
+/Users/Rafa/pocs/MaidSafe/src/third_party_libs/googlemock/test/gtest/gtest.h
+

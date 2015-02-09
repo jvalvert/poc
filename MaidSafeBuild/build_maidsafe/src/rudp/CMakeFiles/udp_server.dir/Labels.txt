@@ -1,0 +1,4 @@
+# Target labels
+ Rudp
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/rudp/src/maidsafe/rudp/tests/udp_echo_server.cc

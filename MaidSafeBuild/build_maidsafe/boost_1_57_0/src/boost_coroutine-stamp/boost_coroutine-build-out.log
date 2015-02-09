@@ -1,0 +1,115 @@
+Performing configuration checks
+
+    - lockfree boost::atomic_flag : yes
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : building
+    - date_time                : not building
+    - exception                : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - signals                  : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - wave                     : not building
+
+common.mkdir Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448
+
+        mkdir -p "Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448"
+    
+common.mkdir Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/pthread
+
+        mkdir -p "Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/pthread"
+    
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/pthread/thread.o
+
+    "clang++" -x c++ -Wextra -Wno-long-long -Wno-variadic-macros -Wunused-function -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_BUILD_LIB=1 -DBOOST_THREAD_DONT_USE_CHRONO -DBOOST_THREAD_POSIX -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/pthread/thread.o" "libs/thread/src/pthread/thread.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/pthread/once.o
+
+    "clang++" -x c++ -Wextra -Wno-long-long -Wno-variadic-macros -Wunused-function -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_BUILD_LIB=1 -DBOOST_THREAD_DONT_USE_CHRONO -DBOOST_THREAD_POSIX -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/pthread/once.o" "libs/thread/src/pthread/once.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/future.o
+
+    "clang++" -x c++ -Wextra -Wno-long-long -Wno-variadic-macros -Wunused-function -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_BUILD_LIB=1 -DBOOST_THREAD_DONT_USE_CHRONO -DBOOST_THREAD_POSIX -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/future.o" "libs/thread/src/future.cpp"
+
+RmTemps Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/libboost_thread-mt.a(clean)
+
+    rm -f "Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/libboost_thread-mt.a" 
+
+clang-darwin.archive Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/libboost_thread-mt.a
+
+  "ar"  rc "Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/libboost_thread-mt.a" "Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/pthread/thread.o" "Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/pthread/once.o" "Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/future.o"
+  "ranlib" -cs "Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/libboost_thread-mt.a"
+
+common.copy stage/lib/libboost_thread-mt.a
+
+    cp "Build/boost/bin.v2/libs/thread/build/7f927638a298a02d90a6384ba4ab2448/libboost_thread-mt.a"  "stage/lib/libboost_thread-mt.a"
+
+common.mkdir Build/boost/bin.v2/libs/coroutine
+
+        mkdir -p "Build/boost/bin.v2/libs/coroutine"
+    
+common.mkdir Build/boost/bin.v2/libs/coroutine/build
+
+        mkdir -p "Build/boost/bin.v2/libs/coroutine/build"
+    
+common.mkdir Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448
+
+        mkdir -p "Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448"
+    
+common.mkdir Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/detail
+
+        mkdir -p "Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/detail"
+    
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/detail/coroutine_context.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_CHRONO_STATIC_LINK=1 -DBOOST_COROUTINES_SOURCE -DBOOST_SYSTEM_NO_DEPRECATED -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_BUILD_LIB=1 -DBOOST_THREAD_POSIX -DBOOST_THREAD_USE_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/detail/coroutine_context.o" "libs/coroutine/src/detail/coroutine_context.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/exceptions.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_CHRONO_STATIC_LINK=1 -DBOOST_COROUTINES_SOURCE -DBOOST_SYSTEM_NO_DEPRECATED -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_BUILD_LIB=1 -DBOOST_THREAD_POSIX -DBOOST_THREAD_USE_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/exceptions.o" "libs/coroutine/src/exceptions.cpp"
+
+common.mkdir Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/posix
+
+        mkdir -p "Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/posix"
+    
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/posix/stack_traits.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_CHRONO_STATIC_LINK=1 -DBOOST_COROUTINES_SOURCE -DBOOST_SYSTEM_NO_DEPRECATED -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_BUILD_LIB=1 -DBOOST_THREAD_POSIX -DBOOST_THREAD_USE_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/posix/stack_traits.o" "libs/coroutine/src/posix/stack_traits.cpp"
+
+libs/coroutine/src/posix/stack_traits.cpp:48:15: warning: unused variable 'result' [-Wunused-variable]
+    const int result = ::getrlimit( RLIMIT_STACK, limit);
+              ^
+1 warning generated.
+RmTemps Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/libboost_coroutine-mt.a(clean)
+
+    rm -f "Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/libboost_coroutine-mt.a" 
+
+clang-darwin.archive Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/libboost_coroutine-mt.a
+
+  "ar"  rc "Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/libboost_coroutine-mt.a" "Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/detail/coroutine_context.o" "Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/exceptions.o" "Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/posix/stack_traits.o"
+  "ranlib" -cs "Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/libboost_coroutine-mt.a"
+
+common.copy stage/lib/libboost_coroutine-mt.a
+
+    cp "Build/boost/bin.v2/libs/coroutine/build/7f927638a298a02d90a6384ba4ab2448/libboost_coroutine-mt.a"  "stage/lib/libboost_coroutine-mt.a"
+

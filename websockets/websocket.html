@@ -1,0 +1,77 @@
+<!DOCTYPE html>  
+<meta charset="utf-8" />  
+<title>WebSocket Test</title>  
+<script language="javascript" type="text/javascript">  
+
+	var wsUri = "ws://localhost:8080/"; 
+	var output;  
+	function init() 
+		{ 	output = document.getElementById("output"); 
+		    openWebSocket(); 
+		}  
+
+	function openWebSocket() 
+		{ 
+			websocket = new WebSocket(wsUri); 
+			websocket.onopen = function(evt) { onOpen(evt) }; 
+			websocket.onclose = function(evt) { onClose(evt) }; 
+			websocket.onmessage = function(evt) { onMessage(evt) }; 
+			websocket.onerror = function(evt) { onError(evt) }; 
+		}  
+
+	function onOpen(evt) 
+		{ 
+			writeToScreen("CONNECTED"); 
+			sendMessage();
+		}  
+
+	function onClose(evt) 
+		{  
+			doSend("Closing the WebSocket...");
+			writeToScreen("DISCONNECTED"); 
+		}  
+
+	function onMessage(evt) 
+		{ writeToScreen('<span style="color: blue;">' + evt.data+'</span>'); 
+		  
+		}  
+
+
+	function onError(evt) 
+		{ 
+			writeToScreen('<span style="color: red;">ERROR:</span> ' + evt.data); 
+		}  
+
+	function doSend(message) 
+		{ 	
+			writeToScreen("SENT: " + message);  websocket.send(message);
+		}  
+	function writeToScreen(message) 
+		{ 
+			var pre = document.createElement("p"); 
+
+				pre.style.wordWrap = "break-word"; 
+				pre.innerHTML = message; 
+				output.appendChild(pre); 
+		}  
+	
+	function closeWebSocket()
+     {
+     	websocket.close(); 
+     	output.innerHTML = "";
+     }	
+     function sendMessage()
+     {
+     	doSend(text_input.value);
+     }
+    					
+window.addEventListener("load", init, false);  
+</script>  
+
+<h2>Mongoose WebSocket Test</h2>  <div id="output"></div>
+
+
+<button onclick="openWebSocket()">Open WebSocket</button>
+<button onclick="closeWebSocket()">Close WebSocket</button> <br>
+Message: <input type="text" placeholder="write a message" value = "Central Services" id="text_input"/>
+<button onclick="sendMessage()">Send message</button> <br>

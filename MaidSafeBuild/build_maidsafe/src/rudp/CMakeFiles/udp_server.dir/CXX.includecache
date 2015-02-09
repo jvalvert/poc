@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Rafa/pocs/MaidSafe/src/rudp/src/maidsafe/rudp/tests/udp_echo_server.cc
+cstdlib
+-
+iostream
+-
+boost/asio/io_service.hpp
+/Users/Rafa/pocs/MaidSafe/src/rudp/src/maidsafe/rudp/tests/boost/asio/io_service.hpp
+boost/asio/ip/udp.hpp
+/Users/Rafa/pocs/MaidSafe/src/rudp/src/maidsafe/rudp/tests/boost/asio/ip/udp.hpp
+boost/system/error_code.hpp
+/Users/Rafa/pocs/MaidSafe/src/rudp/src/maidsafe/rudp/tests/boost/system/error_code.hpp
+

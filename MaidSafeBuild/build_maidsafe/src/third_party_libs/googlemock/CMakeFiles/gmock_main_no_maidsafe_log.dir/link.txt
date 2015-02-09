@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../libgmock_main_no_maidsafe_log.a  CMakeFiles/gmock_main_no_maidsafe_log.dir/src/gmock_main.cc.o CMakeFiles/gmock_main_no_maidsafe_log.dir/src/gmock-all.cc.o
+/usr/bin/ranlib ../../../libgmock_main_no_maidsafe_log.a

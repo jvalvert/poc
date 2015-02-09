@@ -1,0 +1,177 @@
+Performing configuration checks
+
+    - iconv (libc)             : no
+    - iconv (separate)         : yes
+    - icu                      : no
+    - icu (lib64)              : no
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - signals                  : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - wave                     : not building
+
+common.mkdir Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448
+
+        mkdir -p "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448"
+    
+common.mkdir Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/encoding
+
+        mkdir -p "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/encoding"
+    
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/encoding/codepage.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/encoding/codepage.o" "libs/locale/src/encoding/codepage.cpp"
+
+common.mkdir Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared
+
+        mkdir -p "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared"
+    
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/date_time.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/date_time.o" "libs/locale/src/shared/date_time.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/format.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/format.o" "libs/locale/src/shared/format.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/formatting.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/formatting.o" "libs/locale/src/shared/formatting.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/generator.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/generator.o" "libs/locale/src/shared/generator.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/ids.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/ids.o" "libs/locale/src/shared/ids.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/localization_backend.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/localization_backend.o" "libs/locale/src/shared/localization_backend.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/message.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/message.o" "libs/locale/src/shared/message.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/mo_lambda.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/mo_lambda.o" "libs/locale/src/shared/mo_lambda.cpp"
+
+libs/locale/src/shared/mo_lambda.cpp:220:16: warning: unused function 'un_factory' [-Wunused-function]
+    plural_ptr un_factory(int value,plural_ptr op)
+               ^
+1 warning generated.
+common.mkdir Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util
+
+        mkdir -p "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util"
+    
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/codecvt_converter.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/codecvt_converter.o" "libs/locale/src/util/codecvt_converter.cpp"
+
+libs/locale/src/util/codecvt_converter.cpp:630:23: warning: unused variable 'ensure_mbstate_size_is_at_least_2' [-Wunused-const-variable]
+    static const char ensure_mbstate_size_is_at_least_2[sizeof(std::mbstate_t) >= 2 ? 1 : -1] = {0};
+                      ^
+1 warning generated.
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/default_locale.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/default_locale.o" "libs/locale/src/util/default_locale.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/info.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/info.o" "libs/locale/src/util/info.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/locale_data.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/locale_data.o" "libs/locale/src/util/locale_data.cpp"
+
+common.mkdir Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix
+
+        mkdir -p "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix"
+    
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/codecvt.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/codecvt.o" "libs/locale/src/posix/codecvt.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/collate.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/collate.o" "libs/locale/src/posix/collate.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/converter.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/converter.o" "libs/locale/src/posix/converter.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/numeric.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/numeric.o" "libs/locale/src/posix/numeric.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/posix_backend.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/posix_backend.o" "libs/locale/src/posix/posix_backend.cpp"
+
+common.mkdir Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std
+
+        mkdir -p "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std"
+    
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/codecvt.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/codecvt.o" "libs/locale/src/std/codecvt.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/collate.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/collate.o" "libs/locale/src/std/collate.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/converter.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/converter.o" "libs/locale/src/std/converter.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/numeric.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/numeric.o" "libs/locale/src/std/numeric.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/std_backend.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/std_backend.o" "libs/locale/src/std/std_backend.cpp"
+
+clang-darwin.compile.c++ Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/gregorian.o
+
+    "clang++" -x c++ -fPIC -std=c++11 -stdlib=libc++ -O3 -O3 -finline-functions -Wno-inline -Wall -DBOOST_ALL_NO_LIB=1 -DBOOST_LOCALE_NO_WINAPI_BACKEND=1 -DBOOST_LOCALE_WITH_ICONV=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_NO_LIB=1 -DNDEBUG -I"." -c -o "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/gregorian.o" "libs/locale/src/util/gregorian.cpp"
+
+RmTemps Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/libboost_locale-mt.a(clean)
+
+    rm -f "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/libboost_locale-mt.a" 
+
+clang-darwin.archive Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/libboost_locale-mt.a
+
+  "ar"  rc "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/libboost_locale-mt.a" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/encoding/codepage.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/date_time.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/format.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/formatting.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/generator.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/ids.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/localization_backend.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/message.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/shared/mo_lambda.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/codecvt_converter.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/default_locale.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/info.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/locale_data.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/codecvt.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/collate.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/converter.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/numeric.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/posix/posix_backend.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/codecvt.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/collate.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/converter.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/numeric.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/std/std_backend.o" "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/util/gregorian.o"
+  "ranlib" -cs "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/libboost_locale-mt.a"
+
+common.copy stage/lib/libboost_locale-mt.a
+
+    cp "Build/boost/bin.v2/libs/locale/build/7f927638a298a02d90a6384ba4ab2448/libboost_locale-mt.a"  "stage/lib/libboost_locale-mt.a"
+

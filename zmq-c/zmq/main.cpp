@@ -2,8 +2,8 @@
 
 //first p2p propossal
 
-#include <zmq.h>
-#include <zmq.hpp>
+#include <zmq/zmq.h>
+#include <zmq/zmq.hpp>
 
 #include <stdio.h>
 #include <unistd.h>
@@ -11,7 +11,7 @@
 #include <assert.h>
 #include <iostream>
 
-#include "msgpack.hpp"
+#include <msgpack/msgpack.hpp>
 #include <vector>
 
 using namespace std;
@@ -23,7 +23,7 @@ std::cout << "Zmq server listening at 5555..\n";
 // Socket to talk to clients
 void *context = zmq_ctx_new ();
 void *responder = zmq_socket (context, ZMQ_REP);
-int rc = zmq_bind (responder, "tcp://*:5555");
+int rc = zmq_bind (responder, "tcp://*:380001");
 assert (rc == 0);
 
 while (1) {
@@ -48,8 +48,8 @@ std::cout << "Zmq Client...\n";
 zmq::context_t context (1);
 zmq::socket_t socket (context, ZMQ_REQ);
 
-std::cout << "Connecting to server tcp://localhost:5555…" << std::endl;
-socket.connect ("tcp://localhost:5555");
+std::cout << "Connecting to server tcp://localhost:38001…" << std::endl;
+socket.connect ("tcp://localhost:38001");
 
 // Do 10 requests, waiting each time for a response
 for (int request_nbr = 0; request_nbr != 10; request_nbr++) {

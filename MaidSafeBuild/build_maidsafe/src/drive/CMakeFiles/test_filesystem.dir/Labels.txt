@@ -1,0 +1,7 @@
+# Target labels
+ Drive
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/filesystem_test.cc
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/tool_main.cc
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/commands/unix_file_commands.h
+/Users/Rafa/pocs/MaidSafe/src/drive/src/maidsafe/drive/tools/commands/unix_file_commands.cc

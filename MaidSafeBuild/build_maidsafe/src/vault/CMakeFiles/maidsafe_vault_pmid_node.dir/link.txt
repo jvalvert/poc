@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../libmaidsafe_vault_pmid_node-d.a  CMakeFiles/maidsafe_vault_pmid_node.dir/src/maidsafe/vault/pmid_node/dispatcher.cc.o CMakeFiles/maidsafe_vault_pmid_node.dir/src/maidsafe/vault/pmid_node/handler.cc.o CMakeFiles/maidsafe_vault_pmid_node.dir/src/maidsafe/vault/pmid_node/service.cc.o CMakeFiles/maidsafe_vault_pmid_node.dir/__/__/GeneratedProtoFiles/maidsafe/vault/pmid_node/pmid_node.pb.cc.o
+/usr/bin/ranlib ../../libmaidsafe_vault_pmid_node-d.a

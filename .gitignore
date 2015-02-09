@@ -2,3 +2,4 @@ node_modules
 *.o
 .qmake.stash
 .DS_Store
+*ipfs*

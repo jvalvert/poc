@@ -1,0 +1,8 @@
+# Target labels
+ Routing
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tools/routing_node.cc
+/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tools/commands.h
+/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tools/commands.cc
+/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tools/shared_response.h
+/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tools/shared_response.cc

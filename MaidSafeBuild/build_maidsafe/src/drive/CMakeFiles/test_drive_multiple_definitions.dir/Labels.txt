@@ -1,0 +1,6 @@
+# Target labels
+ Drive
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/drive/all_apis.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/drive/translation_unit_one.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/drive/translation_unit_two.cc

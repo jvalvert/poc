@@ -1,0 +1,6 @@
+# Target labels
+ Rudp
+# Source files and their labels
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/rudp/all_apis.h
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/rudp/translation_unit_one.cc
+/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/rudp/translation_unit_two.cc
