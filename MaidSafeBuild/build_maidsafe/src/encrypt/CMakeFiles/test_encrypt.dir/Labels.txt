@@ -1,9 +1,0 @@
-# Target labels
- Encrypt
-# Source files and their labels
-/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/tests/data_map_encryptor_test.cc
-/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/tests/self_encryptor_basic_test.cc
-/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/tests/self_encryptor_private_member_test.cc
-/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/tests/self_encryptor_test.cc
-/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/tests/test_main.cc
-/Users/Rafa/pocs/MaidSafe/src/encrypt/src/maidsafe/encrypt/tests/encrypt_test_base.h

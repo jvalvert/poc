@@ -1,5 +1,0 @@
-# Target labels
- Routing
-# Source files and their labels
-/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tests/routing_functional_test.cc
-/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tests/test_func_main.cc

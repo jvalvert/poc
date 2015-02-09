@@ -1,6 +1,0 @@
-# Target labels
- Passport
-# Source files and their labels
-/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/passport/all_apis.h
-/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/passport/translation_unit_one.cc
-/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/passport/translation_unit_two.cc

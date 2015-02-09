@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../libmaidsafe_drive-d.a  CMakeFiles/maidsafe_drive.dir/src/maidsafe/drive/config.cc.o CMakeFiles/maidsafe_drive.dir/src/maidsafe/drive/directory.cc.o CMakeFiles/maidsafe_drive.dir/src/maidsafe/drive/file_context.cc.o CMakeFiles/maidsafe_drive.dir/src/maidsafe/drive/meta_data.cc.o CMakeFiles/maidsafe_drive.dir/src/maidsafe/drive/utils.cc.o CMakeFiles/maidsafe_drive.dir/__/__/GeneratedProtoFiles/maidsafe/drive/proto_structs.pb.cc.o
-/usr/bin/ranlib ../../libmaidsafe_drive-d.a

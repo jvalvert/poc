@@ -1,4 +1,0 @@
-# Target labels
- Routing
-# Source files and their labels
-/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tools/create_bootstrap.cc

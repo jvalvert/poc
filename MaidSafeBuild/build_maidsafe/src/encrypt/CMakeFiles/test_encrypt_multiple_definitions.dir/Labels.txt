@@ -1,6 +1,0 @@
-# Target labels
- Encrypt
-# Source files and their labels
-/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/encrypt/all_apis.h
-/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/encrypt/translation_unit_one.cc
-/Users/Rafa/pocs/MaidSafeBuild/build_maidsafe/src/encrypt/translation_unit_two.cc

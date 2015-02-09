@@ -1,7 +1,0 @@
-# Target labels
- Common
-# Source files and their labels
-/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/visualiser_log_test.cc
-/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/test.cc
-/Users/Rafa/pocs/MaidSafe/src/common/include/maidsafe/common/test.h
-/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tests/tests_main.cc

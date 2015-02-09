@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../libmaidsafe_test-d.a  CMakeFiles/maidsafe_test.dir/src/maidsafe/common/test.cc.o
-/usr/bin/ranlib ../../libmaidsafe_test-d.a

@@ -1,7 +1,0 @@
-# Target labels
- Nfs
-# Source files and their labels
-/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/tests/data_getter_test.cc
-/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/tests/maid_node_nfs_test.h
-/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/tests/maid_node_nfs_test.cc
-/Users/Rafa/pocs/MaidSafe/src/nfs/src/maidsafe/nfs/tests/tests_main.cc

@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../libmaidsafe_network_viewer-d.a  CMakeFiles/maidsafe_network_viewer.dir/src/maidsafe/common/tools/network_viewer.cc.o
-/usr/bin/ranlib ../../libmaidsafe_network_viewer-d.a

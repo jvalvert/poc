@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../libmaidsafe_routing_test_helper-d.a  CMakeFiles/maidsafe_routing_test_helper.dir/src/maidsafe/routing/tests/routing_network.cc.o CMakeFiles/maidsafe_routing_test_helper.dir/src/maidsafe/routing/tests/zero_state_helpers.cc.o CMakeFiles/maidsafe_routing_test_helper.dir/src/maidsafe/routing/tests/test_utils.cc.o
-/usr/bin/ranlib ../../libmaidsafe_routing_test_helper-d.a

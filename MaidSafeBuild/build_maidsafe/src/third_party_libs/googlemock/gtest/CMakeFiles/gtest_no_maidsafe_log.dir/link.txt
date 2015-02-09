@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../../../libgtest_no_maidsafe_log.a  CMakeFiles/gtest_no_maidsafe_log.dir/src/gtest-all.cc.o
-/usr/bin/ranlib ../../../../libgtest_no_maidsafe_log.a

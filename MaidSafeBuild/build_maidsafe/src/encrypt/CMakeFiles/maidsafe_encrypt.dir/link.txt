@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../libmaidsafe_encrypt-d.a  CMakeFiles/maidsafe_encrypt.dir/src/maidsafe/encrypt/byte_array.cc.o CMakeFiles/maidsafe_encrypt.dir/src/maidsafe/encrypt/data_map.cc.o CMakeFiles/maidsafe_encrypt.dir/src/maidsafe/encrypt/data_map_encryptor.cc.o CMakeFiles/maidsafe_encrypt.dir/src/maidsafe/encrypt/self_encryptor.cc.o CMakeFiles/maidsafe_encrypt.dir/__/__/GeneratedProtoFiles/maidsafe/encrypt/data_map.pb.cc.o
-/usr/bin/ranlib ../../libmaidsafe_encrypt-d.a

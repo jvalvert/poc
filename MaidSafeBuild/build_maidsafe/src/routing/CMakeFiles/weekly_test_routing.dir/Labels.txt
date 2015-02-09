@@ -1,8 +1,0 @@
-# Target labels
- Routing
-# Source files and their labels
-/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tests/cache_test.cc
-/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tests/routing_churn_test.cc
-/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tests/find_nodes_test.cc
-/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tests/routing_stand_alone_test.cc
-/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tests/test_main.cc

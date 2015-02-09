@@ -1,1 +1,0 @@
-Action:NoOperation          Source:CacheHandler:Single    Destination:CacheHandler:Single     Contents:struct:maidsafe::nfs_vault::DataName

@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../libmaidsafe_vault_cache_handler-d.a  CMakeFiles/maidsafe_vault_cache_handler.dir/src/maidsafe/vault/cache_handler/dispatcher.cc.o CMakeFiles/maidsafe_vault_cache_handler.dir/src/maidsafe/vault/cache_handler/operation_handlers.cc.o CMakeFiles/maidsafe_vault_cache_handler.dir/src/maidsafe/vault/cache_handler/service.cc.o
-/usr/bin/ranlib ../../libmaidsafe_vault_cache_handler-d.a

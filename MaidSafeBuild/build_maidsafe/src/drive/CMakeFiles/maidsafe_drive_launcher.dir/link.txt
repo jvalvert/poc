@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../libmaidsafe_drive_launcher-d.a  CMakeFiles/maidsafe_drive_launcher.dir/src/maidsafe/drive/tools/launcher.cc.o
-/usr/bin/ranlib ../../libmaidsafe_drive_launcher-d.a

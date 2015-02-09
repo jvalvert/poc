@@ -1,4 +1,0 @@
-# Target labels
- VaultManager
-# Source files and their labels
-/Users/Rafa/pocs/MaidSafe/src/vault_manager/src/maidsafe/vault_manager/vault_manager_main.cc

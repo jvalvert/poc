@@ -1,7 +1,0 @@
-# Target labels
- Passport
-# Source files and their labels
-/Users/Rafa/pocs/MaidSafe/src/passport/src/maidsafe/passport/tests/fob_test.cc
-/Users/Rafa/pocs/MaidSafe/src/passport/src/maidsafe/passport/tests/passport_test.cc
-/Users/Rafa/pocs/MaidSafe/src/passport/src/maidsafe/passport/tests/public_fob_test.cc
-/Users/Rafa/pocs/MaidSafe/src/passport/src/maidsafe/passport/tests/tests_main.cc

@@ -3,3 +3,5 @@ node_modules
 .qmake.stash
 .DS_Store
 *ipfs*
+Maidsafe
+go

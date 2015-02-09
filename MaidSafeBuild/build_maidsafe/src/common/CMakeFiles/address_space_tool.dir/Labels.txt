@@ -1,5 +1,0 @@
-# Target labels
- Common
-# Source files and their labels
-/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tools/address_space_tool.cc
-/Users/Rafa/pocs/MaidSafe/src/common/src/maidsafe/common/tools/address_space_tool.h

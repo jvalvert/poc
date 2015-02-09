@@ -1,4 +1,0 @@
-# Target labels
- Vault
-# Source files and their labels
-/Users/Rafa/pocs/MaidSafe/src/vault/src/maidsafe/vault/vault_main.cc

@@ -1,9 +1,0 @@
-# Target labels
- Routing
-# Source files and their labels
-/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tests/routing_network.cc
-/Users/Rafa/pocs/MaidSafe/src/routing/include/maidsafe/routing/tests/routing_network.h
-/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tests/zero_state_helpers.cc
-/Users/Rafa/pocs/MaidSafe/src/routing/include/maidsafe/routing/tests/zero_state_helpers.h
-/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tests/test_utils.cc
-/Users/Rafa/pocs/MaidSafe/src/routing/src/maidsafe/routing/tests/test_utils.h

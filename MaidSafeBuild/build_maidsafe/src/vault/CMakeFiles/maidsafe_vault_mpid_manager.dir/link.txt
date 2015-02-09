@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../libmaidsafe_vault_mpid_manager-d.a  CMakeFiles/maidsafe_vault_mpid_manager.dir/src/maidsafe/vault/mpid_manager/mpid_manager_holder_service.cc.o
-/usr/bin/ranlib ../../libmaidsafe_vault_mpid_manager-d.a

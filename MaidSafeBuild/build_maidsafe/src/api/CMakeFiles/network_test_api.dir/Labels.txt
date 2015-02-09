@@ -1,9 +1,0 @@
-# Target labels
- Api
-# Source files and their labels
-/Users/Rafa/pocs/MaidSafe/src/api/src/maidsafe/tests/account_getter_test.cc
-/Users/Rafa/pocs/MaidSafe/src/api/src/maidsafe/tests/account_handler_test.cc
-/Users/Rafa/pocs/MaidSafe/src/api/src/maidsafe/tests/private_client_test.cc
-/Users/Rafa/pocs/MaidSafe/src/api/src/maidsafe/tests/test_utils.cc
-/Users/Rafa/pocs/MaidSafe/src/api/src/maidsafe/tests/tests_main.cc
-/Users/Rafa/pocs/MaidSafe/src/api/src/maidsafe/tests/test_utils.h

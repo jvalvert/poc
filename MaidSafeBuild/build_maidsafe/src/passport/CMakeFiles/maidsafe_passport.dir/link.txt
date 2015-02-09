@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../libmaidsafe_passport-d.a  CMakeFiles/maidsafe_passport.dir/src/maidsafe/passport/detail/fob.cc.o CMakeFiles/maidsafe_passport.dir/src/maidsafe/passport/detail/passport.cc.o CMakeFiles/maidsafe_passport.dir/src/maidsafe/passport/detail/public_fob.cc.o
-/usr/bin/ranlib ../../libmaidsafe_passport-d.a
