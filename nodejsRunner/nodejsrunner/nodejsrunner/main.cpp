@@ -36,9 +36,10 @@ int main(int argc, char *argv[])
   // run the nodejs app.  for this example lift sails app
   sails.start("/usr/local/bin/sails lift");
   //TODO: Check if is possible to sync a forever process here...
-  sleep(4); // since sails is a process that start a server that runs forever wait for the start to be ready to serve the app
-
-  qDebug() << "Error String:" <<sails.errorString();
+  //sleep(4); // since sails is a process that start a server that runs forever wait for the start to be ready to serve the app
+  sails.waitForStarted();
+    if (sails.errorString().compare("Unknown error")!=0)
+       qDebug() << "Error String content:" << sails.errorString();
 
   MainWindow w;
    QObject::connect(&a, SIGNAL(aboutToQuit()), &w, SLOT(SL_Quitting()));

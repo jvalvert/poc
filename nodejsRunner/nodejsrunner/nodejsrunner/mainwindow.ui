@@ -36,6 +36,11 @@
       <height>301</height>
      </rect>
     </property>
+    <property name="url">
+     <url>
+      <string>about:blank</string>
+     </url>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">

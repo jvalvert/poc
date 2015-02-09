@@ -47,6 +47,7 @@ public:
         webView = new QWebView(centralWidget);
         webView->setObjectName(QStringLiteral("webView"));
         webView->setGeometry(QRect(10, 30, 901, 301));
+        webView->setUrl(QUrl(QStringLiteral("about:blank")));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));

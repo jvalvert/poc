@@ -7,7 +7,9 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ui->webView->load(QUrl("http://localhost:1337"));
+   sleep(3);
+   ui->webView->load(QUrl("http://localhost:1337"));
+
 }
 
 void MainWindow::SL_Quitting()
